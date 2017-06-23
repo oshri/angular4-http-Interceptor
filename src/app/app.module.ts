@@ -6,7 +6,7 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 import { AppComponent } from './app.component';
 import { HttpInterceptor } from './services/httpInterceptor.service'
-import { InMemoryDataService }  from './services/inMemoryData.service';
+import { InMemoryDataService }  from './services/InMemoryData.service';
 import { ProjectSrv } from './services/projects.service';
 import { httpFactory } from "./services/http.factory";
 
